@@ -1,7 +1,7 @@
 {
   "verbose": true,
   "ignore": ["node_modules"],
-  "watch": ["src"],
+  "watch": [""],
   "ext": "ts",
-  "exec": "node --inspect=0.0.0.0:9225 --require ts-node/register src/server.ts"
+  "exec": "node --inspect=0.0.0.0:9225 --require ts-node/register ./server.ts"
 }
